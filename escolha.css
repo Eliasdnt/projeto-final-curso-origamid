@@ -1,0 +1,52 @@
+.subtitle-escolha {
+  font-size: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.subtitle-escolha span {
+  color: #ffbf00;
+  margin-left: -15px;
+}
+
+.escolha {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  list-style: none;
+  overflow-x: auto;
+  height: 100%;
+  /* overflow-y: auto; */
+}
+.escolha li {
+  min-width: 280px;
+}
+.escolha img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.escolha-li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.escolha ul li {
+  list-style: none;
+}
+.escolha h3, span{
+  font-size: 2rem;
+  margin-top: 0px;
+}
+
+.detalhe-ponto{
+  font-size: 4rem;
+  color:#ffbf00;
+}
+
+.escolha{
+  margin-bottom: 200px;
+}
