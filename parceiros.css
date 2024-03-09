@@ -1,0 +1,15 @@
+.parceiro-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    align-content: center;
+}
+
+.parceiro-grid img{
+    padding: 40px;
+    margin:10px;
+
+
+}

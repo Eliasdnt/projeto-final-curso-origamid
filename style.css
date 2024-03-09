@@ -2,6 +2,7 @@
 @import './intro.css';
 @import './escolha.css';
 @import './tec.css';
+@import 'parceiros.css';
 
 * {
   font-size: 100%;
