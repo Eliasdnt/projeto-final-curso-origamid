@@ -3,6 +3,7 @@
 @import './escolha.css';
 @import './tec.css';
 @import 'parceiros.css';
+@import 'depo.css';
 
 * {
   font-size: 100%;
