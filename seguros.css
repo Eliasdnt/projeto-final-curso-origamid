@@ -1,0 +1,90 @@
+.subtitle-escolha-seguros {
+  font-size: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.color-seguros {
+  background-color: #111;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.seguros-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.seguros-conteudo ul li {
+  list-style: none;
+}
+
+.seguros-container {
+  background-color: #000;
+  padding: 50px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: max-content;
+}
+
+.seguros-container ul li {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.seguros-container ul li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url(./img/icones/lista.svg);
+  position: absolute;
+  left: -21px;
+}
+
+#seguros-prata {
+  color: #9c9c9c;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+#seguros-ouro {
+  color: #ffbb00;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.valores-seguros span {
+  display: block;
+  font-size: 1.75rem;
+  text-align: right;
+}
+.valores-seguros p {
+  color: #9c9c9c;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+#button-prata {
+  color: #ededed;
+  text-transform: uppercase;
+  background-color: #2e2e2e;
+  padding: 20px 30px;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+#button-ouro {
+  text-decoration: none;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  padding: 20px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #332200;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+}
