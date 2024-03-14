@@ -1,0 +1,50 @@
+
+
+.title-page-seguros{
+  background-color: #111;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+
+}
+
+.title-page-seguros p{
+  color: #b2b2b2;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.title-page-seguros h1{
+  font-size: 4rem;
+  color: #fff;
+}
+
+.title-page-seguros .vantagens{
+  background-color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-vantagens{
+  background-color: #000;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.content h3{
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.content p {
+  color:#cecece;
+  margin-top: 20px;
+}
+
+
