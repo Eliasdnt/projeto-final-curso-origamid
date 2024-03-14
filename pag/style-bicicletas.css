@@ -1,0 +1,78 @@
+.title-page-bicicletas{
+  background-color: #111;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.title-page-bicicletas p{
+  color: #b2b2b2;
+}
+
+.title-page-bicicletas h1{
+  font-size: 3rem;
+  color: #fff;
+}
+
+.bike-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top:80px ;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bike-info img{
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.bike-info h3{
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.bike-info p{
+  color: #595959;
+  font-size: 1rem;
+  margin-bottom: 30px;
+
+}
+
+.bike-info li{
+  color: #595959;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.bike-info a{
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+   
+}
+
+.black-back {
+ margin: 0 auto;
+ background: linear-gradient(to right, #fff 30%, #111 0%);
+ 
+}
+
+.black-back h3{
+  color: #fff;
+}
+
+
+
+
+
