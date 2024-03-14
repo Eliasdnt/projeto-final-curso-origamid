@@ -10,12 +10,11 @@
   color: #b2b2b2;
   text-transform: uppercase;
   font-size: 2rem;
-   color: #000;
+  margin-top: 40px;
 }
 
 .title-page-seguros h1{
   font-size: 4rem;
-  color: #fff;
    color: #000;
 }
 
@@ -23,10 +22,13 @@
   background-color: #000;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 80px;
+  color: #fff;
 }
 
 .bg-vantagens{
   background-color: #000;
+  padding-bottom: 80px;
 }
 .content{
   display: grid;
@@ -127,3 +129,4 @@
   color: #332200;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
+
