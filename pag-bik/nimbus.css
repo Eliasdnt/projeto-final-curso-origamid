@@ -122,3 +122,30 @@
   text-transform: uppercase;
   color: #b2b2b2;
 }
+
+.escolha-bik{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 200px;
+  gap: 40px;
+}
+
+.escolha-bik img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.escolha-li-bik{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.escolha-li-bik h3, span{
+  font-size: 2rem;
+  margin-top: 0px;
+}
