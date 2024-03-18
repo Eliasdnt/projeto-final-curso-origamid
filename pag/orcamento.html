@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="sytle-orcamento.css" />
-    <link rel="stylesheet" href="../pag/style-bicicletas.css">
+    <link rel="stylesheet" href="../pag/style-bicicletas.css" />
     <title>Bicicletas</title>
   </head>
   <body>
-
-
     <div class="menu">
       <header>
         <nav>
@@ -23,23 +21,117 @@
           </ul>
 
           <ul>
-            <li><a class="li-menu" href="../pag/bicicletas.html">Bicicletas</a></li>
+            <li>
+              <a class="li-menu" href="../pag/bicicletas.html">Bicicletas</a>
+            </li>
             <li><a class="li-menu" href="../pag/seguros.html">Seguros</a></li>
             <li><a class="li-menu" href="">Contato</a></li>
           </ul>
         </nav>
       </header>
     </div>
-    
- <div style="background-color: #111">
+
+    <div style="background-color: #111">
       <div class="title-page-bicicletas">
         <p>COTAÇÕES NO SEU EMAIL</p>
         <h1>solicite um orçamento<span class="detalhe-ponto">.</span></h1>
       </div>
     </div>
-   
 
-    
+    <section>
+      <form action="./orcamento.html">
+        <div>
+          <h2>Bikcraft ou Seguros?</h2>
+          <input
+            type="radio"
+            name="tipo"
+            value="bikcraft"
+            id="bikcraft"
+            action="#radio-bike"
+          />
+          <label for="bikcraft">Bikcraft</label>
+          <input
+            type="radio"
+            name="tipo"
+            value="seguros"
+            id="seguros"
+            action="#radio-seguro"
+          />
+          <label for="bikcraft">Seguros</label>
+
+          <div id="radio-bike">
+            <h2>ESCOLHA A SUA</h2>
+            <input type="radio" name="bike" value="nimbus" id="nimbus" />
+            <label for="nimbus">Nimbus Stark</label>
+            <div>
+              <ul>
+                <li>
+                  <img src="./img/icones/eletrica.svg" alt="" /> Motor Elétrico
+                </li>
+                <li>
+                  <img src="./img/icones/carbono.svg" alt="" /> Fibra de Carbono
+                </li>
+                <li>
+                  <img src="./img/icones/velocidade.svg" alt="" /> 50 km/h
+                </li>
+                <li>
+                  <img src="./img/icones/rastreador.svg" alt="" /> Rastreador
+                </li>
+              </ul>
+              <img src="../img/bicicletas/nimbus.jpg" alt="Bicicleta preta" />
+           </div>
+
+            <input type="radio" name="bike" value="magic" id="magic" />
+            <label for="magic">Magic Migth</label>
+            <div>
+                <ul>
+                <li>
+                  <img src="./img/icones/eletrica.svg" alt="" /> Motor Elétrico
+                </li>
+                <li>
+                  <img src="./img/icones/carbono.svg" alt="" /> Fibra de Carbono
+                </li>
+                <li>
+                  <img src="./img/icones/velocidade.svg" alt="" /> 50 km/h
+                </li>
+                <li>
+                  <img src="./img/icones/rastreador.svg" alt="" /> Rastreador
+                </li>
+              </ul>
+              <img src="../img/bicicletas/magic.jpg" alt="Bicicleta preta" />
+            </div>
+            <input type="radio" name="bike" value="nebula" id="nebula" />
+            <label for="nebula">Nebula Cosmic</label>
+            <div>
+                <ul>
+                <li>
+                  <img src="./img/icones/eletrica.svg" alt="" /> Motor Elétrico
+                </li>
+                <li>
+                  <img src="./img/icones/carbono.svg" alt="" /> Fibra de Carbono
+                </li>
+                <li>
+                  <img src="./img/icones/velocidade.svg" alt="" /> 50 km/h
+                </li>
+                <li>
+                  <img src="./img/icones/rastreador.svg" alt="" /> Rastreador
+                </li>
+              </ul>
+              <img src="../img/bicicletas/nebula.jpg" alt="Bicicleta preta" />
+            </div>
+         
+
+          <div id="radio-seguro">
+            <h2>ESCOLHA SEU PLANO</h2>
+            <input type="radio" name="seguro" value="prata" id="prata" />
+            <label for="prata">Prata <span>R$ 199</span></label>
+            <div></div>
+            <input type="radio" name="seguro" value="ouro" id="ouro" />
+            <label for="ouro">Ouro <span>R$ 299</span></label>
+          </div>
+        </div>
+      </form>
+    </section>
 
     <footer>
       <div class="footer-container">
