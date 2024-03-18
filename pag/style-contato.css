@@ -1,0 +1,27 @@
+.container-contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:80px;
+}
+
+.container-contato-dir{
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 80px;
+
+}
+
+.container-contato-dir{
+    border-radius:4px ;
+}
+
+.infors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
