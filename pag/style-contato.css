@@ -4,6 +4,8 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top:80px;
+    margin-bottom:80px;
+
 }
 
 .container-contato-dir{
@@ -13,15 +15,17 @@
     grid-template-columns: 1fr;
     gap: 40px;
     padding: 40px 80px;
-
+    
 }
 
 .container-contato-dir{
     border-radius:4px ;
 }
 
+
+
 .infors {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
 }
