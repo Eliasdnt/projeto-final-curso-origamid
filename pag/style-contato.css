@@ -1,10 +1,33 @@
+.title-page-bicicletas-{
+  /* background-color: #111; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+
+}
+
+.title-page-bicicletas- p{
+  color: #b2b2b2;
+  font-size: 2rem;
+}
+
+.title-page-bicicletas- h1{
+  font-size: 4rem;
+  color: #111;
+}
+
+.bg-co{
+    background:linear-gradient(to top, #fff 30%, #111 0%);
+
+}
+
 .container-contato{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top:80px;
     margin-bottom:80px;
+    padding-top: 80px;
 
 }
 
@@ -14,7 +37,9 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 40px 80px;
+    padding: 40px 40px;
+
+    
     
 }
 
@@ -28,4 +53,56 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+.contato-form{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    gap:40px;
+    background-color: #fff;
+    padding: 40px 40px;
+
+}
+
+.contato-form-grid-interno{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    
+}
+
+.contato-form-grid-interno input, textarea{
+    font-family:  "Roboto", sans-serif;
+    font-size: 1.5rem;
+    background-color:#f7f7f7;
+    border: 1px solid #ededed;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contato-form-grid-interno-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.lojas-locais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lojas-locais-{
+    display: grid;
+    grid-template-columns:1fr;
+    max-width: 600px;
+}
+
+.lojas-locais- img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
