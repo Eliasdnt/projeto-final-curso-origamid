@@ -12,8 +12,8 @@
     display: block;
 }
 
-#radio-bike #nimbus-, #magic-, #nebula-{
-    display: grid;
+#radio-bike  #nimbus-, #magic-, #nebula-{
+    display: none;
     grid-template-columns: 1fr 1fr;
 }
 .img-mini{
@@ -24,9 +24,9 @@
     list-style: none;
 }
 
-#radio-bike input:checked +label+ #nimbus-,
-#radio-bike input:checked +label+ #magic-,
-#radio-bike input:checked +label+ #nebula-{
+#radio-bike #nimbus:checked +label+ #nimbus-,
+#radio-bike #magic:checked +label+ #magic-,
+#radio-bike #nebula:checked +label+ #nebula-{
     display: grid;
 }
 
