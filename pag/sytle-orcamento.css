@@ -4,3 +4,10 @@
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
 }
+#radio-bike, #radio-seguro{
+    display: none;
+}
+#bikcraft:checked ~ #radio-bike,
+#seguros:checked ~ #radio-seguro{
+    display: block;
+}
