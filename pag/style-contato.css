@@ -67,7 +67,7 @@
 .contato-form-grid-interno{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 20px;
     
 }
 
@@ -86,6 +86,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    justify-content: start;
+}
+.contato-form-grid-interno a{
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif
 }
 
 .lojas-locais{
@@ -110,7 +119,7 @@
 
 .icones-hor{
     display: flex;
-    margin-bottom: ;
+    /* margin-bottom: ; */
    
 }
 .icones-hor img{
