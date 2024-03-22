@@ -24,15 +24,9 @@
     list-style: none;
 }
 
-#nimbus-, #magic-, #nebula-{
-    display: none;
-}
-
-#nimbus:checked ~ #nimbus-,
-#magic:checked ~ #magic-,
-#nebula:checked ~ #nebula-{
-   display: block;
-   
-
+#radio-bike input:checked +label+ #nimbus-,
+#radio-bike input:checked +label+ #magic-,
+#radio-bike input:checked +label+ #nebula-{
+    display: grid;
 }
 
