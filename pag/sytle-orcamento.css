@@ -11,3 +11,28 @@
 #seguros:checked ~ #radio-seguro{
     display: block;
 }
+
+#radio-bike #nimbus-, #magic-, #nebula-{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-mini{
+    object-fit: cover;
+    width: 100%;
+}
+#radio-bike li{
+    list-style: none;
+}
+
+#nimbus-, #magic-, #nebula-{
+    display: none;
+}
+
+#nimbus:checked ~ #nimbus-,
+#magic:checked ~ #magic-,
+#nebula:checked ~ #nebula-{
+   display: block;
+   
+
+}
+
