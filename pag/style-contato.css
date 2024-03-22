@@ -1,3 +1,7 @@
+main{
+    background-color: #ededed;
+}
+
 .title-page-bicicletas-{
   /* background-color: #111; */
   max-width: 1200px;
@@ -17,7 +21,7 @@
 }
 
 .bg-co{
-    background:linear-gradient(to top, #fff 30%, #111 0%);
+    background:linear-gradient(to top, #ededed 30%, #111 0%);
 
 }
 
@@ -85,6 +89,7 @@
     gap: 20px;
     justify-content: start;
 }
+
 .contato-form-grid-interno a{
     padding: 16px 32px;
     background: linear-gradient(#ffbf00, #f2a50c);
@@ -99,6 +104,8 @@
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 150px;
+    gap: 50px;
     
 }
 
@@ -106,10 +113,38 @@
     display: grid;
     grid-template-columns:1fr;
     max-width: 600px;
-    background-color: #ededed;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
     margin-bottom: 0;
     
 }   
+.lojas-locais- h4{
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.grid-infor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+    padding-top:20px ;
+    
+}
+.add-bef{
+   border-left: 1px solid #b2b2b2;
+   
+}
+.add-bef p{
+    margin-left: 10px;
+}
+
+
+
+
 .mapa{
     object-fit: cover;
     width: 100%;
@@ -117,10 +152,17 @@
 
 .icones-hor{
     display: flex; 
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.icones-hor span{
+    font-size: 1rem;
 }
 .icones-hor img{
    object-fit: cover;
    width: 5%;
-   height: 75%;
+   height: 100%;
  
 }
