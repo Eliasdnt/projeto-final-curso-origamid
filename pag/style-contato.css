@@ -37,10 +37,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 40px 40px;
-
-    
-    
+    padding: 40px 40px;  
 }
 
 .container-contato-dir{
@@ -102,28 +99,28 @@
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .lojas-locais-{
     display: grid;
     grid-template-columns:1fr;
     max-width: 600px;
+    background-color: #ededed;
+    margin-bottom: 0;
     
-}
-
-.lojas-locais- img{
+}   
+.mapa{
     object-fit: cover;
-    height: 100%;
     width: 100%;
 }
 
 .icones-hor{
-    display: flex;
-    /* margin-bottom: ; */
-   
+    display: flex; 
 }
 .icones-hor img{
-   object-fit: contain;
-   height: 10%;
-   margin: 0;
+   object-fit: cover;
+   width: 5%;
+   height: 75%;
+ 
 }
