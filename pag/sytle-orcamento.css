@@ -1,33 +1,83 @@
-.container-orcamento{
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.title-page-orcamento{
+    color: #fff;
     margin: 0 auto;
+    max-width: 1200px;
 }
-#radio-bike, #radio-seguro{
-    display: none;
+.title-page-orcamento h1{
+    font-size: 4rem;
 }
-#bikcraft:checked ~ #radio-bike,
-#seguros:checked ~ #radio-seguro{
-    display: block;
+.title-page-orcamento p{
+    font-size: 2rem;
 }
 
-  #nimbus-, #magic-, #nebula-{
-    display: none;
+.orcamento{
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.orcamento-produto{
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    border-radius: 4px;
+}
+.orcamento-produto {
+    display: grid;
     
 }
-#radio-bike li{
-    list-style: none;
+
+#orcamento-bikcraft, #orcamento-seguro{
+    display: none;
 }
-.img-mini{
+#bikcraft:checked ~#orcamento-bikcraft,
+#seguro:checked ~#orcamento-seguro{
+display: block;
+}
+.orcamento-conteudo label, .orcamento-produto label{
+    display: block;
+    background-color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    border-radius:4px ;
+    color: #ccc;
+    padding: 12px 16px;
+    text-align: start;
+}
+.orcamento-conteudo span{
+    display: none;
+}
+.orcamento-conteudo input, .orcamento-produto input{
+    pointer-events: none;
+    opacity: 0;
+}
+.orcamento-conteudo h2{
+    margin-bottom: 20px;
+}
+.orcamento-detalhes{
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    color: #111;
+    padding: 40px 20px 20px 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.orcamento-detalhes ul li{
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+.orcamento-detalhes .pic{
     object-fit: cover;
     width: 100%;
 }
- #nimbus:checked +label+ span + #nimbus-,
- #magic:checked +label+ span + #magic-,
- #nebula:checked +label+ span + #nebula-
- {
+
+#nimbus:checked +label+.orcamento-detalhes,
+#magic:checked +label+.orcamento-detalhes,
+#nebula:checked +label+.orcamento-detalhes{
     display: grid;
 }
-
