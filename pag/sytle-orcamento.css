@@ -12,21 +12,22 @@
     display: block;
 }
 
-#radio-bike  #nimbus-, #magic-, #nebula-{
+  #nimbus-, #magic-, #nebula-{
     display: none;
     grid-template-columns: 1fr 1fr;
+    
+}
+#radio-bike li{
+    list-style: none;
 }
 .img-mini{
     object-fit: cover;
     width: 100%;
 }
-#radio-bike li{
-    list-style: none;
-}
-
-#radio-bike #nimbus:checked +label+ #nimbus-,
-#radio-bike #magic:checked +label+ #magic-,
-#radio-bike #nebula:checked +label+ #nebula-{
+ #nimbus:checked +label+ span + #nimbus-,
+ #magic:checked +label+ span + #magic-,
+ #nebula:checked +label+ span + #nebula-
+ {
     display: grid;
 }
 
