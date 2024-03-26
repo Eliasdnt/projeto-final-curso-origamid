@@ -9,12 +9,19 @@
 .title-page-orcamento p{
     font-size: 2rem;
 }
-
+.bg-form{
+    background: linear-gradient(to top, #ededed 30%, #111 0%);
+}
+body{
+    background-color: #ededed;
+}
 .orcamento{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 60px;
 }
 .orcamento-produto{
     background-color: #000;
@@ -30,7 +37,7 @@
 #orcamento-bikcraft, #orcamento-seguro{
     display: none;
 }
-#bikcraft:checked ~#orcamento-bikcraft,
+#bikcraft:checked +label+input+label+#orcamento-bikcraft,
 #seguro:checked ~#orcamento-seguro{
 display: block;
 }
@@ -50,8 +57,10 @@ display: block;
     pointer-events: none;
     opacity: 0;
 }
-.orcamento-conteudo h2{
+.orcamento-conteudo, .orcamento h2{
     margin-bottom: 20px;
+    padding-top: 20px;
+    color: #c2c2c2;
 }
 .orcamento-detalhes{
     display: none;
@@ -80,4 +89,39 @@ display: block;
 #magic:checked +label+.orcamento-detalhes,
 #nebula:checked +label+.orcamento-detalhes{
     display: grid;
+}
+
+
+.orcamento-dados{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    gap: 25px;
+}
+.orcamento-dados h2{
+    display: block;
+    grid-column: 1/-1;
+}
+
+/* .orcamento-dados #cpf{
+    display: block;
+    grid-column: 1/-1;
+} */
+.orcamento-dados input{
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+.orcamento-dados button{
+    padding: 16px 12px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif
 }
